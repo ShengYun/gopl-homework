@@ -42,7 +42,7 @@ func TestReverseOrig(t *testing.T) {
 		reverseOrig(actual)
 		t.Logf("%v %v", actual, v.input)
 		if !sliceValueEqual(actual, v.expect) {
-			t.Errorf("reverseOrig(%s), expected %v, actual %v", v.input, v.expect, actual)
+			t.Errorf("reverseOrig(%v), expected %v, actual %v", v.input, v.expect, actual)
 		}
 	}
 }
@@ -52,7 +52,7 @@ func TestReverse(t *testing.T) {
 		actual := v.input
 		reverse(&actual)
 		if !sliceValueEqual(actual[:], v.expect[:]) {
-			t.Errorf("reverseOrig(%s), expected %v, actual %v", v.input, v.expect, actual)
+			t.Errorf("reverseOrig(%v), expected %v, actual %v", v.input, v.expect, actual)
 		}
 	}
 
