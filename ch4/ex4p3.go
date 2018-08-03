@@ -1,4 +1,4 @@
-// Rewrite reverse to use an array pointer instead of a slice
+// Package ch4 ex4p3 Rewrite reverse to use an array pointer instead of a slice
 package ch4
 
 // original reverse function

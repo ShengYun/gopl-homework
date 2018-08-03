@@ -2,6 +2,8 @@
 // O(n)
 
 // s := []int{0, 1, 2, 3, 4, 5} => [2 3 4 5 0 1]
+
+// Package ch4 ex4p4
 package ch4
 
 func rotate(s []int, k int) {
