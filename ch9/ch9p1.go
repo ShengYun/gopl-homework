@@ -3,7 +3,7 @@
 // The message sent to the monitor goroutine must contain both the amount to withdraw and a new
 // channel over which the monitor goroutine can send the boolean result back to Withdraw.
 
-package ch9p1
+package ch9
 
 type withdraw struct {
 	amount int
